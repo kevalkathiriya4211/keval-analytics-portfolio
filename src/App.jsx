@@ -14,7 +14,7 @@ export default function App() {
 
         <nav className="flex items-center gap-5 mt-4 md:mt-0">
           <a
-            href="/public/Keval Kathiriya Data Analyst.pdf"
+            href="dist/Keval Kathiriya Data Analyst.pdf"
             download
             className="px-4 py-2 bg-[#00B8FF] text-black font-medium rounded-md hover:brightness-90 transition"
           >
@@ -55,7 +55,7 @@ export default function App() {
 
             <div className="mt-6 flex gap-4 flex-wrap">
               <a
-                href="/public/Keval Kathiriya Data Analyst.pdf"
+                href="dist/Keval Kathiriya Data Analyst.pdf"
                 download
                 className="px-5 py-3 rounded-md bg-[#00B8FF] text-black font-medium hover:brightness-95 transition"
               >
@@ -103,7 +103,7 @@ export default function App() {
           <div className="grid md:grid-cols-3 gap-8">
             {/* Blinkit Dashboard */}
             <ProjectCard
-              image="/assets/blinkit.PNG"
+              image="dist/assets/blinkit.PNG"
               title="Blinkit Sales & Outlet Performance"
               desc="Excel-based dashboard analyzing outlet tier performance, category contribution and sales trends."
               link="https://github.com/kevalkathiriya4211/Blinkit-Excel-Analysis"
@@ -112,7 +112,7 @@ export default function App() {
 
             {/* Credit Card Dashboard */}
             <ProjectCard
-              image="/assets/creditcard.PNG"
+              image="dist/assets/creditcard.PNG"
               title="Credit Card Customer Revenue Insights"
               desc="Power BI dashboard for customer segmentation, revenue trends and high-value targeting."
               link="https://github.com/kevalkathiriya4211/Credit-Card-Data-Analysis"
@@ -121,7 +121,7 @@ export default function App() {
 
             {/* Meta Ads Dashboard */}
             <ProjectCard
-              image="/assets/metaads.PNG"
+              image="dist/assets/metaads.PNG"
               title="Meta Ads Performance Dashboard"
               desc="Combined Facebook & Instagram analysis with ROAS, funnel and audience insights."
               link="https://github.com/kevalkathiriya4211/Facebook-Instagram-AD-Data-Analysis"
