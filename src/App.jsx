@@ -101,6 +101,16 @@ export default function App() {
           </p>
 
           <div className="grid md:grid-cols-3 gap-8">
+            {/* Mobile Sales Dashboard */}
+            <ProjectCard
+              image="/assets/mobileSales.PNG"
+              title="Mobile Sales Performance & Insights Dashboard"
+              desc="An interactive Power BI dashboard that visualizes mobile sales performance using city-wise insights, monthly trends, customer ratings, and payment behavior analysis."
+              link="https://github.com/kevalkathiriya4211/Sales-Data-Analysis.git"
+              tool="Power BI"
+            />
+
+
             {/* Blinkit Dashboard */}
             <ProjectCard
               image="/assets/blinkit.PNG"
